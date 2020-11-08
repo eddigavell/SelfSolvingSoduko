@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.SplitPane?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.shape.Line?>
+
+<SplitPane dividerPositions="0.8699059561128527" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity"
+           minWidth="-Infinity" orientation="VERTICAL" prefHeight="600.0" prefWidth="800.0"
+           xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1">
+   <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="100.0" prefWidth="160.0">
+      <GridPane prefHeight="500.0" prefWidth="800.0">
+         <columnConstraints>
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0"/>
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0"/>
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0"/>
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0"/>
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0"/>
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0"/>
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0"/>
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0"/>
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0"/>
+         </columnConstraints>
+         <rowConstraints>
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES"/>
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES"/>
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES"/>
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES"/>
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES"/>
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES"/>
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES"/>
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES"/>
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES"/>
+         </rowConstraints>
+         <TextField fx:id="Cell10" alignment="CENTER" prefHeight="58.0" prefWidth="88.0" GridPane.columnIndex="0"
+                    GridPane.rowIndex="0"/>
+         <TextField fx:id="Cell11" alignment="CENTER" prefHeight="58.0" prefWidth="88.0" GridPane.columnIndex="1"
+                    GridPane.rowIndex="0"/>
+         <TextField fx:id="Cell12" alignment="CENTER" prefHeight="58.0" prefWidth="88.0" GridPane.columnIndex="2"
+                    GridPane.rowIndex="0"/>
+         <TextField fx:id="Cell13" alignment="CENTER" prefHeight="58.0" prefWidth="88.0" GridPane.columnIndex="0"
+                    GridPane.rowIndex="1"/>
+         <TextField fx:id="Cell14" alignment="CENTER" prefHeight="58.0" prefWidth="88.0" GridPane.columnIndex="1"
+                    GridPane.rowIndex="1"/>
+         <TextField fx:id="Cell15" alignment="CENTER" prefHeight="58.0" prefWidth="88.0" GridPane.columnIndex="2"
+                    GridPane.rowIndex="1"/>
+         <TextField fx:id="Cell16" alignment="CENTER" prefHeight="58.0" prefWidth="88.0" GridPane.columnIndex="0"
+                    GridPane.rowIndex="2"/>
+         <TextField fx:id="Cell17" alignment="CENTER" prefHeight="58.0" prefWidth="88.0" GridPane.columnIndex="1"
+                    GridPane.rowIndex="2"/>
+         <TextField fx:id="Cell18" alignment="CENTER" prefHeight="58.0" prefWidth="88.0" GridPane.columnIndex="2"
+                    GridPane.rowIndex="2"/>
+         <TextField fx:id="Cell20" alignment="CENTER" prefHeight="58.0" prefWidth="88.0" GridPane.columnIndex="3"
+                    GridPane.rowIndex="0"/>
+         <TextField fx:id="Cell21" alignment="CENTER" prefHeight="58.0" prefWidth="88.0" GridPane.columnIndex="4"
+                    GridPane.rowIndex="0"/>
+         <TextField fx:id="Cell22" alignment="CENTER" prefHeight="58.0" prefWidth="88.0" GridPane.columnIndex="5"
+                    GridPane.rowIndex="0"/>
+         <TextField fx:id="Cell23" alignment="CENTER" prefHeight="58.0" prefWidth="88.0" GridPane.columnIndex="3"
+                    GridPane.rowIndex="1"/>
+         <TextField fx:id="Cell24" alignment="CENTER" prefHeight="58.0" prefWidth="88.0" GridPane.columnIndex="4"
+                    GridPane.rowIndex="1"/>
+         <TextField fx:id="Cell25" alignment="CENTER" prefHeight="58.0" prefWidth="88.0" GridPane.columnIndex="5"
+                    GridPane.rowIndex="1"/>
+         <TextField fx:id="Cell26" alignment="CENTER" prefHeight="58.0" prefWidth="88.0" GridPane.columnIndex="3"
+                    GridPane.rowIndex="2"/>
+         <TextField fx:id="Cell27" alignment="CENTER" prefHeight="58.0" prefWidth="88.0" GridPane.columnIndex="4"
+                    GridPane.rowIndex="2"/>
+         <TextField fx:id="Cell28" alignment="CENTER" prefHeight="58.0" prefWidth="88.0" GridPane.columnIndex="5"
+                    GridPane.rowIndex="2"/>
+         <TextField fx:id="Cell30" alignment="CENTER" prefHeight="58.0" prefWidth="88.0" GridPane.columnIndex="6"
+                    GridPane.rowIndex="0"/>
+         <TextField fx:id="Cell31" alignment="CENTER" prefHeight="58.0" prefWidth="88.0" GridPane.columnIndex="7"
+                    GridPane.rowIndex="0"/>
+         <TextField fx:id="Cell32" alignment="CENTER" prefHeight="58.0" prefWidth="88.0" GridPane.columnIndex="8"
+                    GridPane.rowIndex="0"/>
+         <TextField fx:id="Cell33" alignment="CENTER" prefHeight="58.0" prefWidth="88.0" GridPane.columnIndex="6"
+                    GridPane.rowIndex="1"/>
+         <TextField fx:id="Cell34" alignment="CENTER" prefHeight="58.0" prefWidth="88.0" GridPane.columnIndex="7"
+                    GridPane.rowIndex="1"/>
+         <TextField fx:id="Cell35" alignment="CENTER" prefHeight="58.0" prefWidth="88.0" GridPane.columnIndex="8"
+                    GridPane.rowIndex="1"/>
+         <TextField fx:id="Cell36" alignment="CENTER" prefHeight="58.0" prefWidth="88.0" GridPane.columnIndex="6"
+                    GridPane.rowIndex="2"/>
+         <TextField fx:id="Cell37" alignment="CENTER" prefHeight="58.0" prefWidth="88.0" GridPane.columnIndex="7"
+                    GridPane.rowIndex="2"/>
+         <TextField fx:id="Cell38" alignment="CENTER" prefHeight="58.0" prefWidth="88.0" GridPane.columnIndex="8"
+                    GridPane.rowIndex="2"/>
+         <TextField fx:id="Cell40" alignment="CENTER" prefHeight="58.0" prefWidth="88.0" GridPane.columnIndex="0"
+                    GridPane.rowIndex="3"/>
+         <TextField fx:id="Cell41" alignment="CENTER" prefHeight="58.0" prefWidth="88.0" GridPane.columnIndex="1"
+                    GridPane.rowIndex="3"/>
+         <TextField fx:id="Cell42" alignment="CENTER" prefHeight="58.0" prefWidth="88.0" GridPane.columnIndex="2"
+                    GridPane.rowIndex="3"/>
+         <TextField fx:id="Cell43" alignment="CENTER" prefHeight="58.0" prefWidth="88.0" GridPane.columnIndex="0"
+                    GridPane.rowIndex="4"/>
+         <TextField fx:id="Cell44" alignment="CENTER" prefHeight="58.0" prefWidth="88.0" GridPane.columnIndex="1"
+                    GridPane.rowIndex="4"/>
+         <TextField fx:id="Cell45" alignment="CENTER" prefHeight="58.0" prefWidth="88.0" GridPane.columnIndex="2"
+                    GridPane.rowIndex="4"/>
+         <TextField fx:id="Cell46" alignment="CENTER" prefHeight="58.0" prefWidth="88.0" GridPane.columnIndex="0"
+                    GridPane.rowIndex="5"/>
+         <TextField fx:id="Cell47" alignment="CENTER" prefHeight="58.0" prefWidth="88.0" GridPane.columnIndex="1"
+                    GridPane.rowIndex="5"/>
+         <TextField fx:id="Cell48" alignment="CENTER" prefHeight="58.0" prefWidth="88.0" GridPane.columnIndex="2"
+                    GridPane.rowIndex="5"/>
+         <TextField fx:id="Cell50" alignment="CENTER" prefHeight="58.0" prefWidth="88.0" GridPane.columnIndex="3"
+                    GridPane.rowIndex="3"/>
+         <TextField fx:id="Cell51" alignment="CENTER" prefHeight="58.0" prefWidth="88.0" GridPane.columnIndex="4"
+                    GridPane.rowIndex="3"/>
+         <TextField fx:id="Cell52" alignment="CENTER" prefHeight="58.0" prefWidth="88.0" GridPane.columnIndex="5"
+                    GridPane.rowIndex="3"/>
+         <TextField fx:id="Cell53" alignment="CENTER" prefHeight="58.0" prefWidth="88.0" GridPane.columnIndex="3"
+                    GridPane.rowIndex="4"/>
+         <TextField fx:id="Cell54" alignment="CENTER" prefHeight="58.0" prefWidth="88.0" GridPane.columnIndex="4"
+                    GridPane.rowIndex="4"/>
+         <TextField fx:id="Cell55" alignment="CENTER" prefHeight="58.0" prefWidth="88.0" GridPane.columnIndex="5"
+                    GridPane.rowIndex="4"/>
+         <TextField fx:id="Cell56" alignment="CENTER" prefHeight="58.0" prefWidth="88.0" GridPane.columnIndex="3"
+                    GridPane.rowIndex="5"/>
+         <TextField fx:id="Cell57" alignment="CENTER" prefHeight="58.0" prefWidth="88.0" GridPane.columnIndex="4"
+                    GridPane.rowIndex="5"/>
+         <TextField fx:id="Cell58" alignment="CENTER" prefHeight="58.0" prefWidth="88.0" GridPane.columnIndex="5"
+                    GridPane.rowIndex="5"/>
+         <TextField fx:id="Cell60" alignment="CENTER" prefHeight="58.0" prefWidth="88.0" GridPane.columnIndex="6"
+                    GridPane.rowIndex="3"/>
+         <TextField fx:id="Cell61" alignment="CENTER" prefHeight="58.0" prefWidth="88.0" GridPane.columnIndex="7"
+                    GridPane.rowIndex="3"/>
+         <TextField fx:id="Cell62" alignment="CENTER" prefHeight="58.0" prefWidth="88.0" GridPane.columnIndex="8"
+                    GridPane.rowIndex="3"/>
+         <TextField fx:id="Cell63" alignment="CENTER" prefHeight="58.0" prefWidth="88.0" GridPane.columnIndex="6"
+                    GridPane.rowIndex="4"/>
+         <TextField fx:id="Cell64" alignment="CENTER" prefHeight="58.0" prefWidth="88.0" GridPane.columnIndex="7"
+                    GridPane.rowIndex="4"/>
+         <TextField fx:id="Cell65" alignment="CENTER" prefHeight="58.0" prefWidth="88.0" GridPane.columnIndex="8"
+                    GridPane.rowIndex="4"/>
+         <TextField fx:id="Cell66" alignment="CENTER" prefHeight="58.0" prefWidth="88.0" GridPane.columnIndex="6"
+                    GridPane.rowIndex="5"/>
+         <TextField fx:id="Cell67" alignment="CENTER" prefHeight="58.0" prefWidth="88.0" GridPane.columnIndex="7"
+                    GridPane.rowIndex="5"/>
+         <TextField fx:id="Cell68" alignment="CENTER" prefHeight="58.0" prefWidth="88.0" GridPane.columnIndex="8"
+                    GridPane.rowIndex="5"/>
+         <TextField fx:id="Cell70" alignment="CENTER" prefHeight="58.0" prefWidth="88.0" GridPane.columnIndex="0"
+                    GridPane.rowIndex="6"/>
+         <TextField fx:id="Cell71" alignment="CENTER" prefHeight="58.0" prefWidth="88.0" GridPane.columnIndex="1"
+                    GridPane.rowIndex="6"/>
+         <TextField fx:id="Cell72" alignment="CENTER" prefHeight="58.0" prefWidth="88.0" GridPane.columnIndex="2"
+                    GridPane.rowIndex="6"/>
+         <TextField fx:id="Cell73" alignment="CENTER" prefHeight="58.0" prefWidth="88.0" GridPane.columnIndex="0"
+                    GridPane.rowIndex="7"/>
+         <TextField fx:id="Cell74" alignment="CENTER" prefHeight="58.0" prefWidth="88.0" GridPane.columnIndex="1"
+                    GridPane.rowIndex="7"/>
+         <TextField fx:id="Cell75" alignment="CENTER" prefHeight="58.0" prefWidth="88.0" GridPane.columnIndex="2"
+                    GridPane.rowIndex="7"/>
+         <TextField fx:id="Cell76" alignment="CENTER" prefHeight="58.0" prefWidth="88.0" GridPane.columnIndex="0"
+                    GridPane.rowIndex="8"/>
+         <TextField fx:id="Cell77" alignment="CENTER" prefHeight="58.0" prefWidth="88.0" GridPane.columnIndex="1"
+                    GridPane.rowIndex="8"/>
+         <TextField fx:id="Cell78" alignment="CENTER" prefHeight="58.0" prefWidth="88.0" GridPane.columnIndex="2"
+                    GridPane.rowIndex="8"/>
+         <TextField fx:id="Cell80" alignment="CENTER" prefHeight="58.0" prefWidth="88.0" GridPane.columnIndex="3"
+                    GridPane.rowIndex="6"/>
+         <TextField fx:id="Cell81" alignment="CENTER" prefHeight="58.0" prefWidth="88.0" GridPane.columnIndex="4"
+                    GridPane.rowIndex="6"/>
+         <TextField fx:id="Cell82" alignment="CENTER" prefHeight="58.0" prefWidth="88.0" GridPane.columnIndex="5"
+                    GridPane.rowIndex="6"/>
+         <TextField fx:id="Cell83" alignment="CENTER" prefHeight="58.0" prefWidth="88.0" GridPane.columnIndex="3"
+                    GridPane.rowIndex="7"/>
+         <TextField fx:id="Cell84" alignment="CENTER" prefHeight="58.0" prefWidth="88.0" GridPane.columnIndex="4"
+                    GridPane.rowIndex="7"/>
+         <TextField fx:id="Cell85" alignment="CENTER" prefHeight="58.0" prefWidth="88.0" GridPane.columnIndex="5"
+                    GridPane.rowIndex="7"/>
+         <TextField fx:id="Cell86" alignment="CENTER" prefHeight="58.0" prefWidth="88.0" GridPane.columnIndex="3"
+                    GridPane.rowIndex="8"/>
+         <TextField fx:id="Cell87" alignment="CENTER" prefHeight="58.0" prefWidth="88.0" GridPane.columnIndex="4"
+                    GridPane.rowIndex="8"/>
+         <TextField fx:id="Cell88" alignment="CENTER" prefHeight="58.0" prefWidth="88.0" GridPane.columnIndex="5"
+                    GridPane.rowIndex="8"/>
+         <TextField fx:id="Cell90" alignment="CENTER" prefHeight="58.0" prefWidth="88.0" GridPane.columnIndex="6"
+                    GridPane.rowIndex="6"/>
+         <TextField fx:id="Cell91" alignment="CENTER" prefHeight="58.0" prefWidth="88.0" GridPane.columnIndex="7"
+                    GridPane.rowIndex="6"/>
+         <TextField fx:id="Cell92" alignment="CENTER" prefHeight="58.0" prefWidth="88.0" GridPane.columnIndex="8"
+                    GridPane.rowIndex="6"/>
+         <TextField fx:id="Cell93" alignment="CENTER" prefHeight="58.0" prefWidth="88.0" GridPane.columnIndex="6"
+                    GridPane.rowIndex="7"/>
+         <TextField fx:id="Cell94" alignment="CENTER" prefHeight="58.0" prefWidth="88.0" GridPane.columnIndex="7"
+                    GridPane.rowIndex="7"/>
+         <TextField fx:id="Cell95" alignment="CENTER" prefHeight="58.0" prefWidth="88.0" GridPane.columnIndex="8"
+                    GridPane.rowIndex="7"/>
+         <TextField fx:id="Cell96" alignment="CENTER" prefHeight="58.0" prefWidth="88.0" GridPane.columnIndex="6"
+                    GridPane.rowIndex="8"/>
+         <TextField fx:id="Cell97" alignment="CENTER" prefHeight="58.0" prefWidth="88.0" GridPane.columnIndex="7"
+                    GridPane.rowIndex="8"/>
+         <TextField fx:id="Cell98" alignment="CENTER" prefHeight="58.0" prefWidth="88.0" GridPane.columnIndex="8"
+                    GridPane.rowIndex="8"/>
+         <Line endX="800.0" endY="100.0" startY="100.0" strokeWidth="5.0" GridPane.columnSpan="8"
+               GridPane.rowIndex="2" GridPane.valignment="BOTTOM"/>
+         <Line endX="800.0" endY="820.0" startY="820.0" strokeWidth="5.0" GridPane.rowIndex="6"
+               GridPane.valignment="TOP"/>
+         <Line endY="290.0" startY="-210.0" strokeWidth="5.0" GridPane.columnIndex="5" GridPane.halignment="RIGHT"
+               GridPane.rowIndex="4"/>
+         <Line endY="290.0" startY="-210.0" strokeWidth="5.0" GridPane.columnIndex="2" GridPane.halignment="RIGHT"
+               GridPane.rowIndex="4"/>
+      </GridPane>
+   </AnchorPane>
+   <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="100.0" prefWidth="800.0">
+      <Button fx:id="button_reset" layoutY="-5.0" maxHeight="80.0" maxWidth="250.0" minHeight="80.0" minWidth="250.0"
+              mnemonicParsing="false" prefHeight="80.0" prefWidth="250.0" text="Reset"/>
+      <Button fx:id="button_solve" layoutX="548.0" maxHeight="80.0" maxWidth="250.0" minHeight="80.0"
+              minWidth="250.0" mnemonicParsing="false" prefHeight="80.0" prefWidth="250.0" text="Solve sudoku!"/>
+   </AnchorPane>
+</SplitPane>

@@ -18,18 +18,15 @@ public class Main extends Application {
     Box box9 = new Box();
 
     public Main() {
-        initiateSudoko();
+        //initiateSudoko();
     }
 
     @Override
     public void start(Stage primaryStage) throws Exception{
-        Parent root = FXMLLoader.load(getClass().getResource("sample.fxml"));
+        Parent root = FXMLLoader.load(getClass().getResource("Sudoku.fxml"));
         primaryStage.setTitle("SelfSolving Soduko");
         primaryStage.setScene(new Scene(root, 800, 600));
         primaryStage.show();
-
-
-
     }
 
     public void initiateSudoko() {
